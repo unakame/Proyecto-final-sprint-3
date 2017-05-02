@@ -48,7 +48,5 @@ document.getElementById("input-number").addEventListener("click", function(){
 
 //  var nav = document.getElementById("nav");
 //  nav.setAttribute("style","background-color: white;");
-  //input1.setAttribute("placeholder","Name");
-  //document.body.appendChild(input1);
-//  document.getElementById("box").appendChild(input1);
+
 //})
