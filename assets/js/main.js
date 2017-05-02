@@ -40,8 +40,8 @@ document.getElementById("input-number").addEventListener("click", function(){
 
 var number = document.getElementById("input-number");
 
-if(number.value.length < 10){
-  alert("ok");
+if(number.value.length > 10){
+  alert("Ingrese un número válido");
 }
 
 //document.getElementById("body").addEventListener("scroll",function(){
