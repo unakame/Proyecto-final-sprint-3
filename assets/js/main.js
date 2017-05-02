@@ -38,11 +38,11 @@ document.getElementById("input-number").addEventListener("click", function(){
     //box.setAttribute("style","height: 1500px;")
 });
 
-var number = document.getElementById("input-number");
+//var number = document.getElementById("input-number");
 
-if(number.value.length > 10){
-  alert("Ingrese un número válido");
-}
+//if(number.value.length > 10){
+  //alert("Ingrese un número válido");
+//}
 
 //document.getElementById("body").addEventListener("scroll",function(){
 
@@ -51,6 +51,4 @@ if(number.value.length > 10){
   //input1.setAttribute("placeholder","Name");
   //document.body.appendChild(input1);
 //  document.getElementById("box").appendChild(input1);
-
-
 //})
