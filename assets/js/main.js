@@ -33,6 +33,9 @@ document.getElementById("input-number").addEventListener("click", function(){
 
     var br1 = document.createElement("br");
     document.getElementById("box").appendChild(br1);
+
+    //var box = document.getElementById("box");
+    //box.setAttribute("style","height: 1500px;")
 });
 
 var number = document.getElementById("input-number");
@@ -40,3 +43,14 @@ var number = document.getElementById("input-number");
 if(number.value.length < 10){
   alert("ok");
 }
+
+//document.getElementById("body").addEventListener("scroll",function(){
+
+//  var nav = document.getElementById("nav");
+//  nav.setAttribute("style","background-color: white;");
+  //input1.setAttribute("placeholder","Name");
+  //document.body.appendChild(input1);
+//  document.getElementById("box").appendChild(input1);
+
+
+//})
