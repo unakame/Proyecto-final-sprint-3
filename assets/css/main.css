@@ -33,7 +33,7 @@ a:hover{
 }
 
 #drive{
-  margin-left: 600px;
+  margin-left: 570px;
 }
 
 video{
@@ -185,4 +185,52 @@ footer{
   position: absolute;
   border-top: 1px solid #aaaaaa;
   width: 800px;
+}
+
+form{
+  background-color: white;
+  z-index: +50px;
+  width: 520px;
+  height: 470px;
+  position: absolute;
+  margin-left: 743px;
+  margin-top: 150px;
+}
+
+button{
+  background-color: #E900B6;
+  color: white;
+  margin-left: 50px;
+}
+
+.form-text1{
+  color: #4F2D76;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#into{
+margin-top: 0px; !important
+}
+
+.form-text2{
+  color: #4F2D76;
+  font-size: 17px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#input-number{
+  margin-left: 50px;
+}
+
+.form-text3{
+  color: #4F2D76;
+}
+
+.form-text4{
+  color: #4F2D76;
+  margin-left: 50px;
+  font-size: 10px;
 }
