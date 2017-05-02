@@ -174,9 +174,10 @@ footer{
 #list2,
 #list3,
 #list4{
-  /*display: block;
-  position: absolute;*/
+  /*display: inline-block;*/
+  position: absolute;
   list-style: none;
+  padding: 60px;
 }
 
 #line{
@@ -221,7 +222,7 @@ margin-top: 0px; !important
   margin-top: 10px;
 }
 
-#input-number{
+input{
   margin-left: 50px;
 }
 
@@ -233,4 +234,44 @@ margin-top: 0px; !important
   color: #4F2D76;
   margin-left: 50px;
   font-size: 10px;
+}
+
+#list2{
+  margin-left: 40px;
+}
+
+#list3{
+  margin-left: 280px;
+}
+
+#list4{
+  margin-left: 530px;
+}
+
+#images{
+  position: absolute;
+  margin-left: 850px;
+  margin-top: 70px;
+}
+
+.footer-text2{
+  font-size: 14px;
+}
+
+#icons{
+  margin-left: 500px;
+  margin-top: 400px;
+  position: absolute;
+}
+
+#line{
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 450px;
+}
+
+#terms{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 480px;
 }
