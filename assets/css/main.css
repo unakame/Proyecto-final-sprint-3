@@ -30,6 +30,7 @@ ul{
   background-color: transparent;
   position: fixed;
   padding: 30px;
+  z-index: +3;
 }
 
 #drive{
@@ -39,4 +40,76 @@ ul{
 video{
   margin-top: -95px;
   position: absolute;
+}
+
+#background{
+  width: 1263px;
+  height: 1300px;
+  /*position: relative;*/
+  /*border-radius: 0px 0px 0px 0px;
+  background: -webkit-linear-gradient(left top,rgb(102, 14, 131), rgb(44, 30, 103));
+  background: -o-linear-gradient(bottom right, rgb(102, 14, 131), rgb(44, 30, 103));
+  background: -moz-linear-gradient(bottom right, rgb(102, 14, 131), rgb(44, 30, 103));
+  background: linear-gradient(to bottom right, rgb(102, 14, 131), rgb(44, 30, 103));
+  http://colorzilla.com/gradient-editor/#660e83+0,660e83+0,660e83+32,2c1e6e+100
+  background: rgb(102,14,131); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(102,14,131,1) 0%, rgba(102,14,131,1) 81%, rgba(44,30,110,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(102,14,131,1) 0%,rgba(102,14,131,1) 81%,rgba(44,30,110,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(102,14,131,1) 0%,rgba(102,14,131,1) 81%,rgba(44,30,110,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660e83', endColorstr='#2c1e6e',GradientType=0 );}
+
+.text-background{
+  color: white;
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 150px;
+  font-size: 25px;
+}
+
+.p-background{
+  color: white;
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 153px;
+  font-size: 15px;
+}
+
+#request{
+  margin-top: 870px;
+}
+
+#serious{
+  margin-top: 940px;
+}
+
+#from{
+  margin-top: 990px;
+}
+
+#trust{
+  margin-top: 1010px;
+}
+
+#drivers{
+  margin-top: 1080px;
+}
+
+#riders{
+  margin-top: 1110px;
+}
+
+#five{
+  margin-top: 1160px;
+}
+
+#stars{
+  margin-top: 1180px;
+}
+
+.phone{
+  position: absolute;
+  margin-top: 780px;
+  margin-left: 700px;
+  width: 460px;
+  height: 507px;
 }
